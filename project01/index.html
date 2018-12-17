@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Todo Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-sm-8 mt-4 ">
+            <div class="card shadow bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                    <div class="controls">
+                        <h3 class="text-center">My Awesome TODO</h3>
+                        <input type="text" id="input" class="form-control"><br>
+                        <button class="btn btn-info" id="add">Add Todo</button>
+                        <button class="btn btn-danger" id="remove">Remove Todo</button>
+                    </div>
+                    <hr>
+                    <div class="mt-2">
+                        <ul id="list">
+                            <li class="mycheck"><input type="checkbox" id="check" class="form-check-input"><label class="form-check-label">Go
+                                    to gym</label></li>
+                            <li class="mycheck"><input type="checkbox" id="check" class="form-check-input" checked><label
+                                    class="form-check-label"><del>Record youtube videos</del></label></li>
+                            <li class="mycheck"><input type="checkbox" id="check" class="form-check-input" checked><label
+                                    class="form-check-label"><del>Record youtube videos</del></label></li>
+                            <li class="mycheck"><input type="checkbox" id="check" class="form-check-input" checked><label
+                                    class="form-check-label"><del>Record youtube videos</del></label></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+
+</html>
